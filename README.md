@@ -45,12 +45,12 @@ The recognised gestures are then (planned to be) mapped to actual Desktop contro
 ### Setup
  1. `$ pip install -r requirements`
  2. `$ jupyter notebook`
- 3. Download the original dataset from [here](https://20bn.com/datasets/jester). 
+ 3. Download the original dataset from [here](https://20bn.com/datasets/jester).
  4. Copy it onto your local machine or google drive.
 
     **NOTE:** This repository was originally run in a free Google Colab VM environment.
 
- 5. Run the Preprocessing notebook after tweaking the paths & removng google drive mount if running locally.
+ 5. Run the Preprocessing notebook after tweaking the paths & removing google drive mount if running locally.
  6. Run the Data Loading notebook to start working on it.
 
 ---
