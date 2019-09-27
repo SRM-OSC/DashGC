@@ -53,7 +53,33 @@ The recognised gestures are then (planned to be) mapped to actual Desktop contro
  5. Run the Preprocessing notebook after tweaking the paths & removing google drive mount if running locally.
  6. Run the Data Loading notebook to start working on it.
 
+### Jupyter Notebook local settings
+ - [`Jupytertheme`](https://github.com/dunovank/jupyter-themes) module used for saving myself from default light theme bleeding eye damage.
+
+    ```pip install jupyterthemes```
+    ```jt -t monokai -nf latosans -nfs 13 -f source -fs 11 -T -N -kl```
+
+ - Notebook extensions from contrib, [`jupyter_contrib_nbextensions`](https://github.com/ipython-contrib/jupyter_contrib_nbextensions) module used to add certain IDE like functionality to Jupyter Notebook.
+
+    ```pip install jupyter_contrib_nbextensions```
+
+    ```jupyter contrib nbextension install```
+
+     Add the following extensions (for convenience):
+     1. Hinterland
+     2. Snippets
+     3. Split Cells Notebook
+     4. Table of Content
+     5. Collapsible Headings
+     6. Autopep8
+ - Widgets [ipywidgets](https://github.com/jupyter-widgets/ipywidgets) enables dashboard like controllers
+
+    ```pip install ipywidgets```
+
+    ```jupyter nbextension enable --py widgetsnbextension```
+
 ---
 
  ## Getting started on Deploying it
  This is a Work-in-Progress, will be updated once the model has been trained & tested.
+ 
