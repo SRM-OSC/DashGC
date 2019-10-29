@@ -1,3 +1,10 @@
-tensorflow-gpu==2.0.0-beta1
+tensorflow-gpu==2.0.0
+keras-tuner
+pandas
+numpy
 jupyter
+nbextensions
+jupyterthemes
+jupyter_contrib_nbextensions
+qgrid
 flask
