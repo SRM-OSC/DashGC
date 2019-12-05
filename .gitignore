@@ -251,3 +251,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Ignore the cookies saved in pickle files inside cookies folder
+/controller/**/*.pickle
